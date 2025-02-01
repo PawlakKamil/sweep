@@ -40,7 +40,7 @@
             bindings = <&kp>, <&kp>;
         };
     };
- &td MINUS COMMA  &kp BKSP 
+
         keymap {
                 compatible = "zmk,keymap";
                 
