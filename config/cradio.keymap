@@ -80,7 +80,7 @@
 		bindings = <
 		&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
 		&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-		&td LG(GRAVE) &mkp RCLK  &msc SCROLL_UP &msc SCROLL_DOWN &trans   				&mkp RCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans 
+		&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 		&to 0 &trans 		&sk RALT &to 1  
 		>;
 		};
