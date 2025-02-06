@@ -57,9 +57,9 @@
 
         left_layer {
             bindings = <
-&kp ESC    &kp ATSN    &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT     &kp CARET  &kp LS(COMMA)  &kp LS(DOT)  &kp SEMI  &kp BKSP
-&kp TAB    &kp EQUAL   &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT       &kp BSLH   &kp LBRC       &kp RBRC     &kp PIPE  &kp ENTER
-&kp TILDE  &kp LA(N3)  &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT       &kp LBKT   &kp LPRN       &kp RPRN     &kp RBKT  &to 3
+&kp ESC    &kp AT      &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT     &kp CARET  &kp LS(COMMA)         &kp LS(DOT)            &kp SEMI  &kp BACKSPACE
+&kp TAB    &kp EQUAL   &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT       &kp BSLH   &kp LBRC              &kp RBRC               &kp PIPE  &kp ENTER
+&kp TILDE  &kp LA(N3)  &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT       &kp LBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT  &to 3
                                                   &to 0             &sk LSHIFT    &sk RALT   &to 2
             >;
         };
@@ -75,10 +75,10 @@
 
         tri_layer {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4     &kp F5        &kp LG(LBKT)  &kp LC(LS(TAB))  &kp UP     &kp RC(TAB)   &kp BKSP
-&kp F6   &kp F7   &kp F8  &kp F9     &kp F10       &trans        &kp LEFT         &kp DOWN   &kp RIGHT     &kp ENTER
-&kp F11  &kp F12  &trans  &sk LCTRL  &sk LSHIFT    &trans        &trans           &kp PG_DN  &kp K_VOL_DN  &trans
-                          &DEL       &to 0         &trans        &sk RALT
+&kp F1   &kp F2   &kp F3  &kp F4     &kp F5        &kp LG(LBKT)   &kp LC(LS(TAB))  &kp UP     &kp RC(TAB)   &kp BACKSPACE
+&kp F6   &kp F7   &kp F8  &kp F9     &kp F10       &trans         &kp LEFT         &kp DOWN   &kp RIGHT     &kp ENTER
+&kp F11  &kp F12  &trans  &sk LCTRL  &sk LSHIFT    &trans         &trans           &kp PG_DN  &kp K_VOL_DN  &kp DEL
+                          &to 0      &trans        &sk RIGHT_ALT  &to 1
             >;
         };
 
